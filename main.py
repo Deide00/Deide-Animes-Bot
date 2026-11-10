@@ -12,7 +12,7 @@ def send_welcome(message):
     markup.row_width = 1
     markup.add(
         InlineKeyboardButton("🎬 Comprar Filmes de Demon Slayer", callback_data="comprar_filmes"),
-        InlineKeyboardButton("ℹ️ Suporte e Ajuda", callback_data="ajuda")
+        InlineKeyboardButton("ℹ️ Suporte e Ajuda", callback_data="/ajuda")
     )
     
     texto = (
